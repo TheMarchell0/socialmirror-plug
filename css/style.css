@@ -1,0 +1,93 @@
+@import "vendor/fonts.css";
+@import "vendor/normalize.css";
+
+* {
+    font-family: "HeliosExtC", "Arial", sans-serif;
+}
+
+*, :after, :before {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F9F9F9;
+}
+
+main {
+    min-height: 100vh;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    -webkit-transition: 0.2s linear;
+    -o-transition: 0.2s linear;
+    transition: 0.2s linear;
+}
+
+a:not(.button):hover {
+    opacity: 0.6;
+}
+
+img {
+    pointer-events: none;
+}
+
+body {
+    background-color: #09080C;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1920px;
+    position: relative;
+    padding: 0 20px;
+}
+
+.hero__img {
+    margin: 175px 0 40px;
+}
+
+.hero__title,
+.hero__text {
+    color: #FFFFFF;
+}
+
+.hero__title {
+    font-size: 90px;
+    font-weight: 400;
+    line-height: 107.73px;
+}
+
+.hero__text {
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 36.6px;
+    margin: 35px 0 85px;
+}
+
+.hero__text.underline {
+    text-decoration: underline;
+}
+
+.hero__text span {
+    color: #88FFC9;
+}
+
+@media (max-width: 767px) {
+    .hero__title {
+        font-size: 40px;
+        line-height: 57.73px;
+    }
+
+    .hero__text {
+        font-size: 20px;
+        font-weight: 300;
+        line-height: 26.6px;
+    }
+}

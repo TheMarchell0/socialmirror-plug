@@ -1,0 +1,12 @@
+/*HeliosExtC*/
+
+@font-face {
+    font-family: "HeliosExtC";
+    src: local("HeliosExtC"),
+    url("../../fonts/HeliosExtC/HeliosExtC.woff2") format("woff2"),
+    url("../../fonts/HeliosExtC/HeliosExtC.woff") format("woff"),
+    url("../../fonts/HeliosExtC/HeliosExtC.ttf") format("ttf"),
+    url("../../fonts/HeliosExtC/HeliosExtC.svg#HeliosExtC") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
